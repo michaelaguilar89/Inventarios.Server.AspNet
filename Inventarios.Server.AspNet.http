@@ -1,0 +1,6 @@
+@Inventarios.Server.AspNet_HostAddress = http://localhost:5202
+
+GET {{Inventarios.Server.AspNet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

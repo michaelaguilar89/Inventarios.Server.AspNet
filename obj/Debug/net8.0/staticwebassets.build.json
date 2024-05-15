@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LuIborsKEdDGKnaD/GrWk1oEYezjIlZD48nLTjtEPPM=",
+  "Source": "Inventarios.Server.AspNet",
+  "BasePath": "_content/Inventarios.Server.AspNet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
