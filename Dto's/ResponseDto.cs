@@ -9,6 +9,8 @@
         public Object Result { get; set; }
 
         public bool IsSuccess {get;set;}
+        public int previosPage { get; set; }
+        public int nextPage { get; set; }
        
 
     }

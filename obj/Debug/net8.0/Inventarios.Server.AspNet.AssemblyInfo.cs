@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inventarios.Server.AspNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54ddd3fb8c892e4ba6c0d45beac752effd222cd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e133b1680927d2b972c19a572e0a86667115265")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inventarios.Server.AspNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inventarios.Server.AspNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

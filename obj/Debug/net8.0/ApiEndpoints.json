@@ -212,6 +212,105 @@
     ]
   },
   {
+    "ContainingType": "Inventarios.Server.AspNet.Controllers.StoreController",
+    "Method": "Create",
+    "RelativePath": "api/Store",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store",
+        "Type": "SolutionPal.RazorPages.Models.Store",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventarios.Server.AspNet.Controllers.StoreController",
+    "Method": "Get",
+    "RelativePath": "api/Store",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "batch",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventarios.Server.AspNet.Controllers.StoreController",
+    "Method": "Update",
+    "RelativePath": "api/Store/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "opt",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "store",
+        "Type": "Inventarios.Server.AspNet.Dto_s.StoreUpdateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "newQuantity",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventarios.Server.AspNet.Controllers.StoreController",
+    "Method": "GetById",
+    "RelativePath": "api/Store/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inventarios.Server.AspNet.Controllers.StoreController",
+    "Method": "GetOptionsList",
+    "RelativePath": "api/Store/OptionsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Inventarios.Server.AspNet.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
